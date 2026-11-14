@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.env
+venv/
+ENV/
+
+# Node
+node_modules/
+dist/
+build/
+
+# VS Code
+.vscode/
+
+# Backend artifacts
+backend/visioncare.db
+backend/uploads/
+backend/reports/
+backend/saved_model/*.keras
+backend/saved_model/*.h5
+
+# Frontend artifacts
+frontend/node_modules/
+frontend/dist/
